@@ -1,0 +1,6 @@
+{
+  "name": "Bulwark: Tactical Command",
+  "description": "2.5D WebGL tactical real-time strategy war game featuring elevation-based Line of Sight, Fog of War, morale and routing mechanics, text-command orders, 4-medal squad commanders, and Mandelbulb fractal terrain monoliths.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

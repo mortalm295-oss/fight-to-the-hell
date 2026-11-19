@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Cinzel', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: var(--font-sans);
+    background-color: #0b1017;
+    color: #e8e3d8;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.hud-stroke {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 0 1px rgba(0, 0, 0, 0.95);
+}
+
+/* Custom thin tactical scrollbar for army roster list */
+.tactical-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.tactical-scroll::-webkit-scrollbar-track {
+  background: rgba(15, 22, 32, 0.6);
+}
+.tactical-scroll::-webkit-scrollbar-thumb {
+  background: rgba(196, 162, 92, 0.35);
+  border-radius: 3px;
+}
